@@ -129,8 +129,8 @@ Your own Reddit account name, without the `u/` prefix.
 - [ ] Only one submission for this use case. Duplicates are treated as abuse.
 - [ ] The volume numbers match what the code actually does
       (`--limit`, `--comments`, run frequency).
-- [ ] Attachment: `docs/samples/sample_report.md` — it shows the output format
-      and proves no usernames appear.
+- [ ] Attachment: `docs/samples/sample_report.pdf` (or `.md`) — it shows the
+      output format and proves no usernames appear.
 - [ ] Do not write "I can't use Devvit because I don't know TypeScript". That is
       a skills gap, not a platform limitation, and it gets rejected.
 - [ ] Do not describe the tool as "just scraping data for research" — that

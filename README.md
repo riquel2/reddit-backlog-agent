@@ -59,6 +59,7 @@ reddit_backlog_agent/
 │   └── test_ui_smoke.py             # 4 个界面冒烟测试（AppTest，不联网）
 ├── docs/
 │   ├── samples/sample_report.md          # 样例报告（合成数据，用于展示产出格式）
+│   ├── samples/sample_report.pdf         # 同一份的 PDF，可直接作为申请附件上传
 │   └── reddit-data-access-request.md    # Data Access Request 逐栏英文答复（可直接粘贴）
 ├── data/                # 运行后生成：raw_data.json + cache/
 └── reports/             # 运行后生成：报告产物 + run.log
