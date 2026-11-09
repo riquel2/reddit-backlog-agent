@@ -1,0 +1,21 @@
+# 凭证与本地数据
+.env
+data/
+reports/
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
+
+# Streamlit 1.67+ 可能在项目里生成的 AI agent skills 目录
+.agents/
+.claude/
+
+# Streamlit 本地状态（邮箱、会话），不要提交
+.streamlit/credentials.toml
+
+# 临时目录与日志
+.shots/
+.tmp_sample/
+*.log

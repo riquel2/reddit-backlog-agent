@@ -1,0 +1,14 @@
+{
+  "name": "reddit-backlog-agent",
+  "python": ">=3.10",
+  "note": "机器可读的依赖清单。安装请直接用 requirements.txt：pip install -r requirements.txt",
+  "dependencies": {
+    "praw": ">=8.0,<9",
+    "pandas": ">=2.0",
+    "openpyxl": ">=3.1",
+    "openai": ">=1.30",
+    "tqdm": ">=4.66",
+    "streamlit": ">=1.36",
+    "plotly": ">=5.20"
+  }
+}

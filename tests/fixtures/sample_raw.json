@@ -1,0 +1,301 @@
+{
+  "meta": {
+    "subreddits": ["SaaS", "Notion", "productivity", "SideProject", "selfhosted", "iosapps"],
+    "keywords": ["wish there was", "alternative to", "would pay for", "deal breaker", "so annoying", "looking for a tool", "no way to"],
+    "time_range_days": 365,
+    "time_filter": "year",
+    "collect_mode": "top",
+    "post_count": 15,
+    "generated_at": "2026-11-01T09:00:00+00:00",
+    "note": "内置演示数据，用于零密钥跑通全流程；内容为合成样本，不代表真实用户。"
+  },
+  "stats": {"seen": 15, "kept": 15, "from_cache": 0, "failed": 0},
+  "posts": [
+    {
+      "id": "p01",
+      "subreddit": "SaaS",
+      "title": "Why is data import still a nightmare in every SaaS tool?",
+      "selftext": "We evaluated four tools last quarter for our ops team. Every single one required a manual CSV mapping exercise before we could see a single row of data. Support kept telling us to use a template. I wish there was a bulk CSV import that just understood our schema.",
+      "score": 842,
+      "upvote_ratio": 0.94,
+      "num_comments": 96,
+      "created_utc": 1772000000,
+      "created_iso": "2026-02-25T10:13:20+00:00",
+      "permalink": "https://www.reddit.com/r/SaaS/comments/p01/data_import/",
+      "flair": "Discussion",
+      "author": "ops_lead_42",
+      "matched_keywords": ["wish there was"],
+      "top_comments": [
+        {"id": "c0101", "body": "Honestly I wish there was a bulk CSV import that mapped columns automatically. I spent two full days on this last month and it was incredibly frustrating.", "score": 320, "author": "data_mover", "is_submitter": false, "created_utc": 1772003600},
+        {"id": "c0102", "body": "The manual workaround is exporting to Google Sheets, cleaning the headers, then re-importing. Takes forever and breaks every time a new column shows up.", "score": 214, "author": "sheetwitch", "is_submitter": false, "created_utc": 1772010000},
+        {"id": "c0103", "body": "We would pay for an importer that handles messy exports from legacy CRMs. Every vendor underestimates how bad the source data actually is.", "score": 156, "author": "revops_dan", "is_submitter": false, "created_utc": 1772030000}
+      ]
+    },
+    {
+      "id": "p02",
+      "subreddit": "Notion",
+      "title": "Notion databases become unusable past 10k rows",
+      "selftext": "Our roadmap database has 12k rows now. Opening a filtered view freezes the app for ten seconds. I wish there was a proper performance mode or at least pagination for large databases.",
+      "score": 613,
+      "upvote_ratio": 0.91,
+      "num_comments": 74,
+      "created_utc": 1769000000,
+      "created_iso": "2026-01-21T08:53:20+00:00",
+      "permalink": "https://www.reddit.com/r/Notion/comments/p02/scale/",
+      "flair": "Rant",
+      "author": "pm_helena",
+      "matched_keywords": ["wish there was"],
+      "top_comments": [
+        {"id": "c0201", "body": "It just freezes whenever I open a filtered view with two relations. I would pay for an offline mode that caches everything locally.", "score": 188, "author": "notion_power", "is_submitter": false, "created_utc": 1769004000},
+        {"id": "c0202", "body": "Same here. The app lags so much that my team went back to Airtable last month. It was a deal breaker for us.", "score": 142, "author": "toolhopper", "is_submitter": false, "created_utc": 1769010000}
+      ]
+    },
+    {
+      "id": "p03",
+      "subreddit": "productivity",
+      "title": "I would pay 50 dollars a month for a tool that actually syncs calendar and tasks",
+      "selftext": "Every integration I try is one way only. I need a real two way sync between my calendar and my task manager without paying for a Zapier plan on top of two subscriptions.",
+      "score": 455,
+      "upvote_ratio": 0.89,
+      "num_comments": 63,
+      "created_utc": 1774000000,
+      "created_iso": "2026-03-20T12:26:40+00:00",
+      "permalink": "https://www.reddit.com/r/productivity/comments/p03/sync/",
+      "flair": "Tool search",
+      "author": "cal_burner",
+      "matched_keywords": ["would pay for"],
+      "top_comments": [
+        {"id": "c0301", "body": "I would pay for a real two way sync. The current Slack integration only pushes notifications, it never updates anything back.", "score": 167, "author": "sync_seeker", "is_submitter": false, "created_utc": 1774005000},
+        {"id": "c0302", "body": "Looking for a tool that does this natively. Zapier works but the latency is awful and the automation breaks constantly.", "score": 98, "author": "gtm_amy", "is_submitter": false, "created_utc": 1774010000}
+      ]
+    },
+    {
+      "id": "p04",
+      "subreddit": "SideProject",
+      "title": "Built an alternative to a popular note app because the pricing got insane",
+      "selftext": "They raised prices twice in eighteen months and moved basic features behind a paywall. I am not alone, half the comments in their subreddit are people looking for an alternative to it.",
+      "score": 389,
+      "upvote_ratio": 0.88,
+      "num_comments": 51,
+      "created_utc": 1775000000,
+      "created_iso": "2026-04-01T06:13:20+00:00",
+      "permalink": "https://www.reddit.com/r/SideProject/comments/p04/pricing/",
+      "flair": "Show and tell",
+      "author": "solo_builder",
+      "matched_keywords": ["alternative to"],
+      "top_comments": [
+        {"id": "c0401", "body": "The pricing is insane for what you get. Per seat pricing killed it for our five person team this year.", "score": 121, "author": "lean_ops", "is_submitter": false, "created_utc": 1775004000},
+        {"id": "c0402", "body": "I switched from them last month. The export was a mess but at least I own my data again.", "score": 87, "author": "ownyourdata", "is_submitter": false, "created_utc": 1775010000}
+      ]
+    },
+    {
+      "id": "p05",
+      "subreddit": "smallbusiness",
+      "title": "Stop charging per seat for tools nobody uses",
+      "selftext": "We have twelve employees and maybe four use the tool weekly. Per seat pricing is a deal breaker for small businesses like ours.",
+      "score": 512,
+      "upvote_ratio": 0.93,
+      "num_comments": 88,
+      "created_utc": 1776000000,
+      "created_iso": "2026-04-12T15:20:00+00:00",
+      "permalink": "https://www.reddit.com/r/smallbusiness/comments/p05/persat/",
+      "flair": "Rant",
+      "author": "shop_owner_j",
+      "matched_keywords": ["deal breaker"],
+      "top_comments": [
+        {"id": "c0501", "body": "Per seat billing is so annoying. I wish there was a flat rate for small teams under ten people.", "score": 176, "author": "tiny_team_tom", "is_submitter": false, "created_utc": 1776004000},
+        {"id": "c0502", "body": "We cancelled three subscriptions this year because of the pricing. The value was simply not there.", "score": 103, "author": "margin_watch", "is_submitter": false, "created_utc": 1776010000}
+      ]
+    },
+    {
+      "id": "p06",
+      "subreddit": "selfhosted",
+      "title": "Looking for a self hosted alternative to Notion with a real API",
+      "selftext": "Requirements are markdown storage, a documented API, and webhooks. Every option I tried either has no API or hides it behind an enterprise plan.",
+      "score": 377,
+      "upvote_ratio": 0.9,
+      "num_comments": 47,
+      "created_utc": 1777000000,
+      "created_iso": "2026-04-24T11:06:40+00:00",
+      "permalink": "https://www.reddit.com/r/selfhosted/comments/p06/selfhost/",
+      "flair": "Need Help",
+      "author": "homelab_ray",
+      "matched_keywords": ["looking for a tool", "alternative to"],
+      "top_comments": [
+        {"id": "c0601", "body": "I wish there was a self hosted option with a proper API and webhook support. Outline is close but the database features are weak.", "score": 134, "author": "docker_dave", "is_submitter": false, "created_utc": 1777004000},
+        {"id": "c0602", "body": "The lack of API access is a deal breaker. I need to integrate it with my own scripts and it is just not possible.", "score": 91, "author": "script_kid", "is_submitter": false, "created_utc": 1777010000}
+      ]
+    },
+    {
+      "id": "p07",
+      "subreddit": "webdev",
+      "title": "Why is there no decent webhook debugger under 99 dollars a month",
+      "selftext": "I just want to inspect payloads, replay requests, and share a link with a teammate. The tools I found charge enterprise prices for what is basically a logging UI.",
+      "score": 298,
+      "upvote_ratio": 0.87,
+      "num_comments": 42,
+      "created_utc": 1778000000,
+      "created_iso": "2026-05-06T09:33:20+00:00",
+      "permalink": "https://www.reddit.com/r/webdev/comments/p07/webhook/",
+      "flair": "Discussion",
+      "author": "backend_bro",
+      "matched_keywords": ["why is there no"],
+      "top_comments": [
+        {"id": "c0701", "body": "I wish there was a simple webhook inspector with a free tier. The current options are overpriced for a solo developer.", "score": 108, "author": "indie_dev_li", "is_submitter": false, "created_utc": 1778004000},
+        {"id": "c0702", "body": "Our team built an internal tool for this because the pricing was ridiculous. A shared link view would already be enough.", "score": 64, "author": "platform_pete", "is_submitter": false, "created_utc": 1778010000}
+      ]
+    },
+    {
+      "id": "p08",
+      "subreddit": "iosapps",
+      "title": "The mobile app is a deal breaker, I cannot even edit a table on my phone",
+      "selftext": "Desktop is fine but the mobile app only supports viewing. I commute two hours a day and cannot update anything until I get home.",
+      "score": 264,
+      "upvote_ratio": 0.86,
+      "num_comments": 39,
+      "created_utc": 1779000000,
+      "created_iso": "2026-05-18T07:46:40+00:00",
+      "permalink": "https://www.reddit.com/r/iosapps/comments/p08/mobile/",
+      "flair": "Rant",
+      "author": "commuter_k",
+      "matched_keywords": ["deal breaker"],
+      "top_comments": [
+        {"id": "c0801", "body": "The mobile experience is so bad. No offline editing, no bulk actions, and the UI is clunky on a phone screen.", "score": 96, "author": "ios_only_nina", "is_submitter": false, "created_utc": 1779004000},
+        {"id": "c0802", "body": "I would pay for a mobile app that actually lets me edit databases offline. Right now I just use the web version in Safari.", "score": 72, "author": "train_worker", "is_submitter": false, "created_utc": 1779010000}
+      ]
+    },
+    {
+      "id": "p09",
+      "subreddit": "freelance",
+      "title": "Invoicing tools are so annoying that I went back to Excel",
+      "selftext": "Every invoicing tool wants to manage my whole business. I just need to generate a PDF, track who paid, and export a CSV for my accountant. The manual workaround is faster than the onboarding.",
+      "score": 341,
+      "upvote_ratio": 0.9,
+      "num_comments": 57,
+      "created_utc": 1780000000,
+      "created_iso": "2026-05-30T13:00:00+00:00",
+      "permalink": "https://www.reddit.com/r/freelance/comments/p09/invoice/",
+      "flair": "Discussion",
+      "author": "freelance_mo",
+      "matched_keywords": ["so annoying"],
+      "top_comments": [
+        {"id": "c0901", "body": "Same here. The onboarding for these tools takes longer than doing the invoice by hand. I wish there was a simple CSV export and nothing else.", "score": 118, "author": "design_freel", "is_submitter": false, "created_utc": 1780004000},
+        {"id": "c0902", "body": "The UI is confusing and there are too many clicks for a basic invoice. I cancelled after the trial ended.", "score": 77, "author": "solo_consult", "is_submitter": false, "created_utc": 1780010000}
+      ]
+    },
+    {
+      "id": "p10",
+      "subreddit": "ADHD",
+      "title": "Any app that actually helps me start tasks instead of just listing them?",
+      "selftext": "I have tried every task manager. They all assume the problem is organization. The problem is starting. I wish there was an AI that breaks the task down and sits with me while I do the first step.",
+      "score": 726,
+      "upvote_ratio": 0.95,
+      "num_comments": 131,
+      "created_utc": 1781000000,
+      "created_iso": "2026-06-11T10:40:00+00:00",
+      "permalink": "https://www.reddit.com/r/ADHD/comments/p10/start/",
+      "flair": "Question",
+      "author": "exec_dysfunction",
+      "matched_keywords": ["wish there was"],
+      "top_comments": [
+        {"id": "c1001", "body": "I would pay for an AI that just tells me the next physical action. Every app I tried is a prettier list and nothing more.", "score": 254, "author": "adhd_pm", "is_submitter": false, "created_utc": 1781004000},
+        {"id": "c1002", "body": "The automation in most apps is useless for this. I need something that interrupts me at the right moment, not another dashboard.", "score": 133, "author": "focus_hacker", "is_submitter": false, "created_utc": 1781010000}
+      ]
+    },
+    {
+      "id": "p11",
+      "subreddit": "startups",
+      "title": "We switched away from our project tool because permissions were a mess",
+      "selftext": "Contractors could see financial documents. There was no way to scope access per project without duplicating whole workspaces. We moved the entire team last quarter.",
+      "score": 433,
+      "upvote_ratio": 0.89,
+      "num_comments": 55,
+      "created_utc": 1782000000,
+      "created_iso": "2026-06-23T08:20:00+00:00",
+      "permalink": "https://www.reddit.com/r/startups/comments/p11/permissions/",
+      "flair": "Lessons learned",
+      "author": "cofounder_sam",
+      "matched_keywords": ["no way to"],
+      "top_comments": [
+        {"id": "c1101", "body": "The permission model is clunky. There is no way to give a client read only access to one board without exposing everything else.", "score": 147, "author": "agency_lead", "is_submitter": false, "created_utc": 1782004000},
+        {"id": "c1102", "body": "I wish there was granular sharing per folder. The current team permissions are all or nothing.", "score": 89, "author": "ops_nina", "is_submitter": false, "created_utc": 1782010000}
+      ]
+    },
+    {
+      "id": "p12",
+      "subreddit": "Entrepreneur",
+      "title": "Customer support is the biggest problem with every SaaS I buy",
+      "selftext": "The product works. Getting a human to answer takes four days. Documentation is outdated and the help center search returns nothing useful.",
+      "score": 219,
+      "upvote_ratio": 0.85,
+      "num_comments": 34,
+      "created_utc": 1783000000,
+      "created_iso": "2026-07-05T16:06:40+00:00",
+      "permalink": "https://www.reddit.com/r/Entrepreneur/comments/p12/support/",
+      "flair": "Rant",
+      "author": "smb_owner",
+      "matched_keywords": ["biggest problem"],
+      "top_comments": [
+        {"id": "c1201", "body": "The documentation is outdated and the tutorials cover features that no longer exist. Support just links the same article again.", "score": 84, "author": "tool_buyer", "is_submitter": false, "created_utc": 1783004000},
+        {"id": "c1202", "body": "I wish there was a real onboarding call instead of a forty page help center. I would pay extra for that.", "score": 61, "author": "newcustomer", "is_submitter": false, "created_utc": 1783010000}
+      ]
+    },
+    {
+      "id": "p13",
+      "subreddit": "androidapps",
+      "title": "Search in this app is useless, no filters and no tags",
+      "selftext": "Search only matches titles, not note content. There are no filters by date and no way to save a search. I have four thousand notes and cannot find anything.",
+      "score": 187,
+      "upvote_ratio": 0.84,
+      "num_comments": 31,
+      "created_utc": 1784000000,
+      "created_iso": "2026-07-17T12:53:20+00:00",
+      "permalink": "https://www.reddit.com/r/androidapps/comments/p13/search/",
+      "flair": "Rant",
+      "author": "note_hoarder",
+      "matched_keywords": ["no way to"],
+      "top_comments": [
+        {"id": "c1301", "body": "The search is so bad. I wish there was a filter by tag and a way to sort by modified date.", "score": 66, "author": "pkm_user", "is_submitter": false, "created_utc": 1784004000},
+        {"id": "c1302", "body": "No full text search is a deal breaker for me. I moved everything to another app after a week.", "score": 44, "author": "migrator_x", "is_submitter": false, "created_utc": 1784010000}
+      ]
+    },
+    {
+      "id": "p14",
+      "subreddit": "SaaS",
+      "title": "Feature request: real analytics instead of vanity dashboards",
+      "selftext": "The dashboard shows page views and nothing else. I need cohort retention, chart level filtering, and a report I can export to CSV for the board meeting.",
+      "score": 156,
+      "upvote_ratio": 0.82,
+      "num_comments": 27,
+      "created_utc": 1785000000,
+      "created_iso": "2026-07-29T09:40:00+00:00",
+      "permalink": "https://www.reddit.com/r/SaaS/comments/p14/analytics/",
+      "flair": "Feature request",
+      "author": "growth_lily",
+      "matched_keywords": ["feature request"],
+      "top_comments": [
+        {"id": "c1401", "body": "I wish there was a proper report builder. The current charts are pretty but useless for actual decisions.", "score": 58, "author": "board_reporter", "is_submitter": false, "created_utc": 1785004000},
+        {"id": "c1402", "body": "The analytics are so shallow. No cohort view, no export, and the dashboard loads slowly.", "score": 39, "author": "data_girl", "is_submitter": false, "created_utc": 1785010000}
+      ]
+    },
+    {
+      "id": "p15",
+      "subreddit": "SaaS",
+      "title": "Two outages this month and still no status page",
+      "selftext": "We lost four hours of work twice. There was no status page and no incident report, just a tweet twelve hours later.",
+      "score": 208,
+      "upvote_ratio": 0.87,
+      "num_comments": 29,
+      "created_utc": 1786000000,
+      "created_iso": "2026-08-10T14:26:40+00:00",
+      "permalink": "https://www.reddit.com/r/SaaS/comments/p15/outage/",
+      "flair": "Rant",
+      "author": "reliability_ray",
+      "matched_keywords": ["no way to"],
+      "top_comments": [
+        {"id": "c1501", "body": "The downtime is unacceptable for a paid tool. I wish there was at least a status page and a security page with SSO details.", "score": 79, "author": "compliance_kim", "is_submitter": false, "created_utc": 1786004000},
+        {"id": "c1502", "body": "No SSO and no audit log is a deal breaker for our compliance review.", "score": 52, "author": "it_manager", "is_submitter": false, "created_utc": 1786010000}
+      ]
+    }
+  ]
+}
